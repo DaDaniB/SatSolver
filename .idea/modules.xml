@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/satsolver4.iml" filepath="$PROJECT_DIR$/satsolver4.iml" />
+      <module fileurl="file://$PROJECT_DIR$/SatSolver.iml" filepath="$PROJECT_DIR$/SatSolver.iml" />
     </modules>
   </component>
 </project>

@@ -4,11 +4,7 @@ import static org.junit.jupiter.api.Assertions.assertFalse;
 import static org.junit.jupiter.api.Assertions.assertTrue;
 
 import DPLL.DPLL;
-import exceptions.BCPException;
-import exceptions.FileFormatException;
-import java.io.IOException;
 import org.junit.jupiter.api.Test;
-import parser.Parser;
 import test.utils.TestUtils;
 
 class MainTest {

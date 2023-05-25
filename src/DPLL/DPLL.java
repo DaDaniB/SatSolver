@@ -7,6 +7,7 @@ import dataTypes.Formula.State;
 import dataTypes.Literal;
 import dataTypes.Variable;
 import exceptions.BCPException;
+import heuristics.DLIS;
 import java.util.LinkedList;
 import java.util.List;
 import java.util.Stack;
@@ -39,7 +40,8 @@ public class DPLL {
                     formula.setState(State.FORMULA_UNDECIDED);
                 }
                 case FORMULA_UNDECIDED -> {
-                    Literal l = getNextLiteral(formula);
+                    //Literal l = getNextLiteral(formula);
+                    Literal l = DLIS.getNextLiteral(formula, trail);
                     if (l == null) {
                         System.out.println("next literal is null");
                         return false;
